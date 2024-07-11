@@ -1,4 +1,5 @@
-import { Hero } from "./component/Hero/Hero"
+import Hero from "./component/Hero/Hero";
+
 
 function App() {
 
@@ -9,4 +10,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
