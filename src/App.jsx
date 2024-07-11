@@ -1,9 +1,10 @@
+import { Hero } from "./component/Hero/Hero"
 
 function App() {
 
   return (
-    <div className="bg-red-600">
-        App
+    <div className="overflow-x-hidden">
+      <Hero />
     </div>
   )
 }
