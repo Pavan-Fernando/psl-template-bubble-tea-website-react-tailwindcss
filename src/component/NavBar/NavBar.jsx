@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { motion } from "framer-motion";
 // import Logo from '../../assets/logo/logo.jpg';
 
-const NavBar = () => {
+const NavBar = ({ sideBar, setSideBar}) => {
     return (
         <nav className='absolute top-0 left-0 w-full pt-10 text-white z-40'>
             <div className='container'>
@@ -33,7 +33,9 @@ const NavBar = () => {
                             stiffness: 100,
                             damping: 10,
                             delay: 0.2
-                        }}>
+                        }}
+                        onClick={() => setSideBar(!sideBar)}
+                        >
                         <GiHamburgerMenu className='text-3xl cursor-pointer'></GiHamburgerMenu>
                     </motion.div>
                 </div>
