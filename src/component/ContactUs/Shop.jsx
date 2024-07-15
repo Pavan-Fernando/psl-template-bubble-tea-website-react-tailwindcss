@@ -1,8 +1,8 @@
 import React from 'react';
 import Map from '../../assets/map/map2.png';
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
-const Shop = () => {
+const ContactUs = () => {
     return (
         <div className='container my-36'>
             <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 place-items-center'>
@@ -70,4 +70,4 @@ const Shop = () => {
     )
 }
 
-export default Shop
+export default ContactUs

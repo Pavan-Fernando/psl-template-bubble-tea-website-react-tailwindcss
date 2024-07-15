@@ -1,6 +1,6 @@
+import ContactUs from "./component/ContactUs/Shop";
 import Hero from "./component/Hero/Hero";
 import Products from "./component/Products/Products";
-import Shop from "./component/ShopDetails/Shop";
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="overflow-x-hidden">
       <Hero />
       <Products />
-      <Shop />
+      <ContactUs />
     </div>
   )
 }
