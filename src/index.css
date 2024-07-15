@@ -10,4 +10,12 @@
   .img-shadow2 {
     filter: drop-shadow(10px 30px 15px #3030307a);
   }
+
+  .input-style{
+    @apply border-b border-lightGray focus:border-primary focus:outline-none
+  }
+
+  .custom_btn{
+    @apply bg-primary text-white px-4 py-2 rounded-md hover:bg-primaryDark duration-200 font-bold
+  }
 }
