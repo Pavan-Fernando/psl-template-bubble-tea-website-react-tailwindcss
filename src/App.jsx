@@ -1,3 +1,4 @@
+import Banner from "./component/Banner/Banner";
 import ContactUs from "./component/ContactUs/Shop";
 import Hero from "./component/Hero/Hero";
 import Products from "./component/Products/Products";
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Products />
       <ContactUs />
+      <Banner />
     </div>
   )
 }
