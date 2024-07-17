@@ -12,12 +12,12 @@ import Logo from "../../assets/logo/logo.jpg";
 
 const Footer = () => {
     return (
-        <div className='bg-gradient-to-r from-primary to-primaryDark pt-12 pb-8 text-white'>
+        <div className='bg-gradient-to-r from-primaryDark to-primary pt-12 pb-4 text-black'>
             <div className='container'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
                     {/* Shop Details */}
                     <div className='space-y-6'>
-                        <h1 className='text-3xl font-bold uppercase'> Prime Stack Labs</h1>
+                        <h1 className='text-3xl font-bold uppercase'> Prime Stack Labs Bubbles</h1>
                         <p className='text-sm max-w-[300px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Praesentium facere laudantium officia quibusdam ut rem beatae, exercitationem aliquam dolore consequatur
                             laboriosam! Quod minima voluptatem ipsa,
@@ -72,7 +72,7 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* Copyright section */}
-                <p className='text-white text-center mt-8 pt-8 border-t-2'>
+                <p className='text-black text-center mt-4 pt-4 border-t-2 font-bold'>
                     Copyright &copy; 2024 Prime Stack Labs;
                 </p>
             </div>

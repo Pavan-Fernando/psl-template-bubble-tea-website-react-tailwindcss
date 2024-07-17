@@ -28,7 +28,7 @@ const Hero = () => {
                     {/* Hero section */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-col-3 place-items-center min-h-[850px]">
                         {/* text content section */}
-                        <div className="text-lightOrange mt-[100px] md:mt-0 p-4 space-y-28 max-w-[475px]">
+                        <div className="mt-[100px] md:mt-0 p-4 space-y-28 max-w-[475px]">
                             <motion.h1
                                 initial={{ opacity: 0, y: -100 }}
                                 animate={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ const Hero = () => {
                                     damping: 10,
                                     delay: 1
                                 }}
-                                className="text-7xl font-bold leading-tight ml-14">PSL Bubble Tea</motion.h1>
+                                className="text-primary text-7xl font-bold leading-tight ml-14">PSL Bubble Tea</motion.h1>
                             <motion.div
                                 initial={{ opacity: 0, y: -100 }}
                                 animate={{ opacity: 1, y: 0 }}
@@ -49,7 +49,7 @@ const Hero = () => {
                                     delay: 1.2
                                 }}
                                 className="relative">
-                                <div className="relative z-10 space-y-4">
+                                <div className=" text-lightOrange relative z-10 space-y-4">
                                     <h1 className="text-2xl">Bubble Tea With PSL,</h1>
                                     <h1 className="text-sm opacity-55 leading-loose">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
